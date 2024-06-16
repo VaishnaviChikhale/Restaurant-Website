@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <style>
+  .abc{
+    border: 2px inset rgb(110, 103, 103);
+    border-radius: 15 px;
+    width: 100%;
+    padding:4px ;
+    background-color: rgba(255, 255, 255, 0.395);
+    color: rgb(58, 55, 55);
+    }
+    .def {
+    background: #ffb03b;
+    border: 0;
+    padding: 10px 24px;
+    margin-top: 14px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+    text-align: center;
+    }
+
+    .def:hover {
+    background: #ffa012;
+    }
+  </style>
+
+  
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Swad Ghar - Book Table</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center fixed-top ">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-center justify-content-lg-start">
+      <i class="bi bi-phone d-flex align-items-center"><span>+91 97642 69391</span></i>
+      <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"><span>All days of week: 8:00 AM - 23:00 PM</span></i>
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center ">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <div class="logo me-auto">
+        <h1><a href="index.html">Swad Ghar</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto " href="index.html">Home</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="booktable.html" class="book-a-table-btn scrollto">Book Another table</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Book A Table</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Book A Table</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs Section -->
+
+     <!-- ======= Book A Table Section ======= -->
+     <section id="book-a-table" class="book-a-table">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Book a <span>Table</span></h2>
+          <p>Don't think twice, just book the table... make your moments magical is our responsibility.</p>
+        </div>
+
+        <form action="book.php" method="post" style="background-image: url(assets/img/formreserve2.gif); background-repeat: repeat-x;">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mt-3 mt-md-0">
+              <input type="text" name="name" class="abc"  placeholder="Your Name" required >
+            </div>
+            <div class="col-lg-4 col-md-6  mt-3 mt-md-0">
+              <input type="text" class="abc" name="email"  placeholder="Your Email" required >
+            </div>
+            <div class="col-lg-4 col-md-6  mt-3 mt-md-0">
+              <input type="text" class="abc" name="phone"  placeholder="Your Phone" required>
+            </div>
+            <div class="col-lg-4 col-md-6  mt-3">
+              <input type="date" name="date" class="abc" placeholder="Date" required >
+            </div>
+            <div class="col-lg-4 col-md-6  mt-3">
+              <input type="time" class="abc" name="time"  placeholder="Time"  required>
+            </div>
+            <div class="col-lg-4 col-md-6  mt-3">
+              <input type="number" class="abc" name="people"  placeholder="Number of people" min="1" required>
+            </div>
+          </div>
+          <div class=" mt-3">
+            <textarea class="abc" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="text-center">
+            <input type="submit"  name="submit" class="def">
+          </div>   
+        </form>
+      </div>
+    </section><!-- End Book A Table Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Swad Ghar</h3>
+      <p>A place where the spirituality of India comes alive!</p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        <strong><span>Swad Ghar</span></strong>. 
+      </div>
+      <div class="credits">
+        <a>
+          <p>&copy; 2024 Vaishnavi Parshuram Chikhale. This website is a project for educational purposes.</p>
+          <p>Created as part of Web Technology Lab Fianl Project at SPPU University (Zeal College of Engineering and Research, Pune, India).</p>
+          <p>All content is fictional and for demonstration purposes only.</p></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
